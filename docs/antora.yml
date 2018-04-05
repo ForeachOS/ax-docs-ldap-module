@@ -1,0 +1,5 @@
+name: ldap-module
+title: "Module: LDAP Support"
+version: 1.0.1
+nav:
+- modules/ROOT/nav.adoc

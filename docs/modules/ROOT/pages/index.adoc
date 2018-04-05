@@ -1,5 +1,5 @@
 = LdapModule
-Arne Vandamme
+Arne Vandamme, Marc Vanbrabant
 1.0.1.RELEASE
 :toc: left
 :sectanchors:
@@ -10,12 +10,6 @@ Arne Vandamme
 :admin-web-module-url: https://foreach.atlassian.net/wiki/display/AX/AdminWebModule
 :entity-module-url: https://foreach.atlassian.net/wiki/display/AX/EntityModule
 :user-module-url: https://foreach.atlassian.net/wiki/display/AX/UserModule
-
-[.copyright,verbatim]
---
-Copyright (C) 2014-2017 +
-[small]#Copies of this document may be made for your own use and for distribution to others, provided that you do not charge any fee for such copies and further provided that each copy contains this Copyright Notice, whether distributed in print or electronically.#
---
 
 [abstract]
 == About
