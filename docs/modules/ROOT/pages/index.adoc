@@ -2,7 +2,7 @@
 
 The LdapModule provides a services for connecting to LDAP directories.
 It provides a domain model for configuring LDAP connections and integrating them with an authentication layer.
-If <<user-module-url,UserModule>> is also present support for synchronizing users and groups from LDAP will also be active.
+If <<url-UserModule,UserModule>> is also present support for synchronizing users and groups from LDAP will also be active.
 
 Currently, the LdapModule support following LDAP directories:
 
@@ -12,5 +12,5 @@ Currently, the LdapModule support following LDAP directories:
 
 == Configuration
 
-Adding the dependency to {admin-web-module-url}[LdapModule] will automatically register a synchronization task which runs every 5 minutes.
+Adding the dependency to {url-AdminWebModule}[LdapModule] will automatically register a synchronization task which runs every 5 minutes.
 The task will not run until an `LdapConnector` and `LdapUserDirectory` are created.

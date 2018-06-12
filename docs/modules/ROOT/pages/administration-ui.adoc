@@ -1,8 +1,8 @@
 = Administration UI
 
 == Configuration via AdminWebModule
-The configuration of an `LdapConnector` and `LdapUserDirectory` is easiest done by using the {admin-web-module-url}[AdminWebModule].
-After logging into the {admin-web-module-url}[AdminWebModule], create a new `LdapConnector` by using the navigation.
+The configuration of an `LdapConnector` and `LdapUserDirectory` is easiest done by using the {url-AdminWebModule}[AdminWebModule].
+After logging into the {url-AdminWebModule}[AdminWebModule], create a new `LdapConnector` by using the navigation.
 
 Currently, the LdapModule support following LDAP directories:
 
