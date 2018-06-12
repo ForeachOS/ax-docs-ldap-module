@@ -1,0 +1,11 @@
+= 1.x.x release notes
+
+[#1-0-1]
+== 1.0.1.RELEASE
+* Be more lenient when a user or group cannot be deleted
+* Replace old apt-maven-plugin with maven-compiler-plugin for better integration with Intellij
+* Added lombok annotations internally
+* Emit an `LdapEntityDeletedEvent` when `ldapModule.synchronizationTaskIntervalInSeconds` property is _true_
+
+== 1.0.0.RELEASE
+Initial public release available on http://search.maven.org/[Maven central].

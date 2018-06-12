@@ -1,0 +1,23 @@
+= Module settings
+
+All properties start with the ldapModule. prefix.
+
+|===
+|Property |Type |Description |Default
+
+|ldapModule.disableSynchronizationTask
+|`Boolean`
+| Enable or disable the ldap synchronization task for all user directories.
+|_false_
+
+|ldapModule.synchronizationTaskIntervalInSeconds
+|`Long`
+| The interval for the synchronization task in seconds.
+|_300_ (5 minutes)
+
+|ldapModule.deleteUsersAndGroupsWhenDeletedFromLdapSource
+|`Boolean`
+|Enable or disable sending of events when a user or group is deleted from the active directory
+|_false_
+
+|===
