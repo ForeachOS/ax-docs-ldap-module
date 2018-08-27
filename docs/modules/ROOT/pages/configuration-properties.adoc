@@ -10,10 +10,15 @@ All properties start with the ldapModule. prefix.
 | Enable or disable the ldap synchronization task for all user directories.
 |_false_
 
-|ldapModule.synchronizationTaskIntervalInSeconds
-|`Long`
-| The interval for the synchronization task in seconds.
-|_300_ (5 minutes)
+|ldapModule.synchronizationTaskInterval
+|`Duration`
+| The interval for the synchronization task.
+| _5 minutes_
+
+|ldapModule.synchronizationTaskInitialDelay
+|`Duration`
+| The initial delay for the synchronization task.
+| _90 seconds_
 
 |ldapModule.deleteUsersAndGroupsWhenDeletedFromLdapSource
 |`Boolean`
