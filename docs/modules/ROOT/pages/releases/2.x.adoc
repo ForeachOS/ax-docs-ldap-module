@@ -1,7 +1,0 @@
-= 2.x.x release notes
-
-[#2-0-0]
-== 2.0.0.RELEASE
-
-* Deprecated properties `ldapModule.synchronizationTaskIntervalInSeconds`
-* New properties `ldapModule.synchronizationTaskInitialDelay` and `ldapModule.synchronizationTaskInterval`
