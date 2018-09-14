@@ -15,7 +15,7 @@
 
 == Release notes
 
-UserModule follows a https://semver.org[semantic versioning] scheme.
+LdapModule follows a https://semver.org[semantic versioning] scheme.
 
 * xref:releases/2.x.adoc#2-0-0[2.0.0]
 * xref:releases/1.x.adoc#1-0-1[1.0.1]
