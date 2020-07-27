@@ -3,6 +3,6 @@
 [#2-0-0]
 == 2.0.0.RELEASE
 
-* *Requires Across 5.0.0.*
+* *Requires Across 5.0.1.*
 * Deprecated properties `ldapModule.synchronizationTaskIntervalInSeconds`
 * New properties `ldapModule.synchronizationTaskInitialDelay` and `ldapModule.synchronizationTaskInterval`
